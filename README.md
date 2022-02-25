@@ -8,7 +8,7 @@ Satoshi Ikeahta. PS-Transformer: Learning Sparse Photometric Stereo Network usin
 
 ## Getting Started
 
-This is an official Pytorch implementation of PS-Transformer for estimating surface normals from images captured under different illumination.
+This is an official Pytorch implementation of PS-Transformer for estimating surface normals from images captured under different known directional lightings.
 
 ### Prerequisites
 
@@ -43,7 +43,17 @@ The pretrained model (our "full" configuration) is available in "pretrained" dir
 
 If the program properly works, you will get average angular errors (in degrees) for each dataset.
 
-The final result [Mean] is the error about the averaged surface normal over normals predicted from K (K=10 in this case) differently rotated observation maps (See details in my paper). Finally, you will get the predicted surface normal map and the error map.
+You can use TensorBoard for visualizing your output. The log file will be saved 
+
+```
+[LOGFILE] = 'Tensorboard/[SESSION_NAME (default:eval)]'
+```
+
+Then, run TensorBoard as
+
+```
+tensorboard --logdir [YOURLOGFILE]
+```
 
 <img src="fig/examples.png" width="600">
 
