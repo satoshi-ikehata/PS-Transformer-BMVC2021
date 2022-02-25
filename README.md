@@ -71,7 +71,7 @@ If you want to run this code on ohter dataset, please allocate your own data jus
 - normals (normal.txt, if no ground truth surface normal is available, you can simply set all the values by zero)
 
 ### Running the training
-The training script is NOT supported yet (will be available).
+The training script is NOT supported yet (will be available soon!).
 However, the training dataset is alraedy available. Please send a request to sikehata@nii.ac.jp
 
 ## License
