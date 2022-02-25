@@ -23,7 +23,7 @@ Tested on:
   - GPU: NvidiaQuadroRTX8000 (64GB)
 
 ### Running the tests
-For testing network (with DiLiGenT dataset), please download [DiLiGenT dataset (DiLiGenT.zip)](https://sites.google.com/site/photometricstereodata/) by Boxin Shi [1] and extract it at [USER_PATH].
+For testing the network on DiLiGenT benchmark by Boxin Shi [1], please download [DiLiGenT dataset (DiLiGenT.zip)](https://sites.google.com/site/photometricstereodata/)  and extract it at [USER_PATH].
 
 Then, please run main.py with the DiLiGenT path as an argument.
 
