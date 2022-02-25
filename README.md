@@ -1,18 +1,22 @@
 # PS-Transformer-BMVC2021
-This is an official Pytorch implementation of PS-Transformer for estimating surface normals from images captured under different known directional lightings.
+This is an official Pytorch implementation of PS-Transformer [1] for estimating surface normals from images captured under different known directional lightings.
 Satoshi Ikeahta. 
 
-PS-Transformer: Learning Sparse Photometric Stereo Network using Self-Attention Mechanism, BMVC2021
+```
+[1] S. Ikehata, "PS-Transformer: Learning Sparse Photometric Stereo Network using Self-Attention Mechanism", BMVC2021
+```
+
+[paper](https://www.bmvc2021-virtualconference.com/assets/papers/0319.pdf)
+
+[supplementary](https://www.bmvc2021-virtualconference.com/assets/supp/0319_supp.zip)
 
 
-<img src="fig/arc.jpg" width="1000">
-<img src="fig/examples.png" width="1000">
+<img src="fig/arc.jpg" width="800">
+<img src="fig/examples.png" width="800">
 
 
 
- [paper](https://www.bmvc2021-virtualconference.com/assets/papers/0319.pdf)
 
- [supplementary](https://www.bmvc2021-virtualconference.com/assets/supp/0319_supp.zip)
 
 ## Getting Started
 
@@ -29,7 +33,7 @@ Tested on:
   - GPU: NvidiaQuadroRTX8000 (64GB)
 
 ### Running the test
-For testing the network on DiLiGenT benchmark by Boxin Shi [1], please download [DiLiGenT dataset (DiLiGenT.zip)](https://sites.google.com/site/photometricstereodata/)  and extract it at [USER_PATH].
+For testing the network on DiLiGenT benchmark by Boxin Shi [2], please download [DiLiGenT dataset (DiLiGenT.zip)](https://sites.google.com/site/photometricstereodata/)  and extract it at [USER_PATH].
 
 Then, please run main.py with the DiLiGenT path as an argument.
 
@@ -83,4 +87,4 @@ However, the training dataset is alraedy available. Please send a request to sik
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## References
-[1] Boxin Shi, Zhipeng Mo, Zhe Wu, Dinglong Duan, Sai-Kit Yeung, and Ping Tan, "A Benchmark Dataset and Evaluation for Non-Lambertian and Uncalibrated Photometric Stereo", In IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2018.
+[2] Boxin Shi, Zhipeng Mo, Zhe Wu, Dinglong Duan, Sai-Kit Yeung, and Ping Tan, "A Benchmark Dataset and Evaluation for Non-Lambertian and Uncalibrated Photometric Stereo", In IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2018.
