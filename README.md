@@ -31,6 +31,12 @@ Then, please run main.py with the DiLiGenT path as an argument.
 python main.py --diligent [USER_PATH]/DiLiGenT/pmsData
 ```
 
+You can change the number of test images (default:10) as 
+
+```
+python main.py --diligent [USER_PATH]/DiLiGenT/pmsData --num_testimg 5
+```
+
 The pretrained model (our "full" configuration) is available at https://www.dropbox.com/s/64i4srb2vue9zrn/pretrained.zip?dl=0.
 Please extract it in "pretrained" directory.
 
