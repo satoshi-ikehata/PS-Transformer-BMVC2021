@@ -34,7 +34,7 @@ python main.py --diligent [USER_PATH]/DiLiGenT/pmsData
 You can change the number of test images (default:10) as 
 
 ```
-python main.py --diligent [USER_PATH]/DiLiGenT/pmsData --num_testimg 5
+python main.py --diligent [USER_PATH]/DiLiGenT/pmsData --n_testimg 5
 ```
 
 Please note that the lighting directions are randomly chosen, therefore the results are different every time.
