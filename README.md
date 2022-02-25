@@ -23,20 +23,12 @@ Tested on:
   - GPU: NvidiaQuadroRTX8000 (64GB)
 
 ### Running the tests
-For testing network (with DiLiGenT dataset), please download [DiLiGenT dataset (DiLiGenT.zip)](https://sites.google.com/site/photometricstereodata/) by Boxin Shi [1] and extract it anywhere. 
-
-```
-DILIGENT = 'USER_PATH/DiLiGenT/pmsData'
-```
+For testing network (with DiLiGenT dataset), please download [DiLiGenT dataset (DiLiGenT.zip)](https://sites.google.com/site/photometricstereodata/) by Boxin Shi [1] and extract it at [USER_PATH].
 
 Then, run main.py with the DiLiGenT path as an argument.
 
 ```
-python main.py --diligent DILIGENT
-```
-
-```
-diligent = 'USER_PATH/DiLiGenT/pmsData'
+python main.py --diligent [USER_PATH]/DiLiGenT/pmsData
 ```
 
 The pretrained model (our "full" configuration) is available in "pretrained" directory.
