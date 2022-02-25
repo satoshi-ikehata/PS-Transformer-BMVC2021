@@ -23,7 +23,7 @@ Tested on:
 - Ubuntu 20.04/Windows10, Python 3.7.5, Pytorch 1.6.0, CUDA 10.2
   - GPU: NvidiaQuadroRTX8000 (64GB)
 
-### Running the tests
+### Running the test
 For testing the network on DiLiGenT benchmark by Boxin Shi [1], please download [DiLiGenT dataset (DiLiGenT.zip)](https://sites.google.com/site/photometricstereodata/)  and extract it at [USER_PATH].
 
 Then, please run main.py with the DiLiGenT path as an argument.
