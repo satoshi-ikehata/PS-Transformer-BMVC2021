@@ -31,7 +31,8 @@ Then, please run main.py with the DiLiGenT path as an argument.
 python main.py --diligent [USER_PATH]/DiLiGenT/pmsData
 ```
 
-The pretrained model (our "full" configuration) is available in "pretrained" directory.
+The pretrained model (our "full" configuration) is available at https://www.dropbox.com/s/64i4srb2vue9zrn/pretrained.zip?dl=0.
+Please extract it in "pretrained" directory.
 
 If the program properly works, you will get average angular errors (in degrees) for each dataset.
 
