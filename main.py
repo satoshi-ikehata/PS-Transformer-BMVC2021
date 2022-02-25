@@ -13,15 +13,15 @@ parser.add_argument('--train_num_samples', type=int, default=50000)
 parser.add_argument('--diligent', default='None')
 parser.add_argument('--pretrained', default='./pretrained')
 parser.add_argument('--checkpoint', default='./checkpoint')
-parser.add_argument('--min_nimg', type=int, default=10)
-parser.add_argument('--max_nimg', type=int, default=10)
+parser.add_argument('--n_testimg', type=int, default=10)
+
 
 def main():
     args = parser.parse_args()
     outdir = '.'
     device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
     # trainData = custom_dataloader('Cycles', args.cycles, num_samples=args.train_num_samples)
-    testData = custom_dataloader('DiLiGenT', args.diligent, min_nimg=args.min_nimg, max_nimg=args.max_nimg)
+    testData = custom_dataloader('DiLiGenT', args.diligent, min_nimg=args.n_testimg, max_nimg=args.n_testimg)
     trainObj = builder.builder(device)
     if args.pretrained is not None:
         trainObj.net.load_models(args.pretrained)
@@ -31,7 +31,7 @@ def main():
     for epoch in range(epochs):
         print(f'Run {epoch}-th epoch')
         # print(f'Number of Training Sets {trainData.data.get_num_set()}, Number of Training Objs {trainData.data.get_num_object()}')
-        print(f'Number of Test Sets {testData.data.get_num_set()}, Number of Training Objs {testData.data.get_num_object()}')
+        print(f'Number of Test Sets {testData.data.get_num_set()}, Number of Objs {testData.data.get_num_object()}')
         losses = 0
         errors = 0
 
