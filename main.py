@@ -18,7 +18,7 @@ def main():
     args = parser.parse_args()
     outdir = '.'
     device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
-    trainData = custom_dataloader('Cycles', args.cycles, num_samples=args.train_num_samples)
+    # trainData = custom_dataloader('Cycles', args.cycles, num_samples=args.train_num_samples)
     testData = custom_dataloader('DiLiGenT', args.diligent)
     trainObj = builder.builder(device)
     if args.pretrained is not None:
