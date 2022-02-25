@@ -1,4 +1,5 @@
 # PS-Transformer-BMVC2021
+<img src="fig/examples.png" width="600">
 
 Satoshi Ikeahta. PS-Transformer: Learning Sparse Photometric Stereo Network using Self-Attention Mechanism, BMVC2021
 
@@ -55,8 +56,6 @@ Then, please run TensorBoard as
 ```
 tensorboard --logdir [YOURLOGFILE]
 ```
-
-<img src="fig/examples.png" width="600">
 
 ### Important notice about DiLiGenT datasets
 
