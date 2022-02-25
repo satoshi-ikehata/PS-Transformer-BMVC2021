@@ -2,9 +2,9 @@
 
 Satoshi Ikeahta. PS-Transformer: Learning Sparse Photometric Stereo Network using Self-Attention Mechanism, BMVC2021
 
- [paper]()
+ [paper](https://www.bmvc2021-virtualconference.com/assets/papers/0423.pdf)
 
- [supplementary]()
+ [supplementary](https://www.bmvc2021-virtualconference.com/assets/supp/0319_supp.zip)
 
 ## Getting Started
 
