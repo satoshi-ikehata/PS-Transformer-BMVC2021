@@ -9,7 +9,7 @@ import argparse
 parser = argparse.ArgumentParser()
 parser.add_argument('--session_name', default='eval')
 parser.add_argument('--train_num_samples', type=int, default=50000)
-parser.add_argument('--cycles', default='None')
+# parser.add_argument('--cycles', default='None')
 parser.add_argument('--diligent', default='None')
 parser.add_argument('--pretrained', default='./pretrained')
 parser.add_argument('--checkpoint', default='./checkpoint')
@@ -28,7 +28,7 @@ def main():
     epochs = 1
     for epoch in range(epochs):
         print(f'Run {epoch}-th epoch')
-        print(f'Number of Training Sets {trainData.data.get_num_set()}, Number of Training Objs {trainData.data.get_num_object()}')
+        # print(f'Number of Training Sets {trainData.data.get_num_set()}, Number of Training Objs {trainData.data.get_num_object()}')
         print(f'Number of Test Sets {testData.data.get_num_set()}, Number of Training Objs {testData.data.get_num_object()}')
         losses = 0
         errors = 0
