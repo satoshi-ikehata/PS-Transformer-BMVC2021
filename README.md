@@ -1,10 +1,12 @@
 # PS-Transformer-BMVC2021
 This is an official Pytorch implementation of PS-Transformer for estimating surface normals from images captured under different known directional lightings.
+Satoshi Ikeahta. PS-Transformer: Learning Sparse Photometric Stereo Network using Self-Attention Mechanism, BMVC2021
+
 
 <img src="fig/arc.jpg" width="1000">
 <img src="fig/examples.png" width="1000">
 
-Satoshi Ikeahta. PS-Transformer: Learning Sparse Photometric Stereo Network using Self-Attention Mechanism, BMVC2021
+
 
  [paper](https://www.bmvc2021-virtualconference.com/assets/papers/0319.pdf)
 
