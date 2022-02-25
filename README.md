@@ -45,7 +45,8 @@ Please extract it at "PS-Transformer-BMVC2021/pretrained".
 
 If the program properly works, you will get average angular errors (in degrees) for each dataset.
 
-You can use TensorBoard for visualizing your output. The log file will be saved at
+You can use [TensorBoard](https://www.tensorflow.org/tensorboard?hl=en) for visualizing your output. The log file will be saved at
+
 
 ```
 [LOGFILE] = 'Tensorboard/[SESSION_NAME (default:eval)]'
