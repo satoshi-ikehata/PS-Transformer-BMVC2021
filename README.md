@@ -40,7 +40,7 @@ python main.py --diligent [USER_PATH]/DiLiGenT/pmsData --n_testimg 5
 Please note that the lighting directions are randomly chosen, therefore the results are different every time.
 
 The pretrained model (our "full" configuration) is available at https://www.dropbox.com/s/64i4srb2vue9zrn/pretrained.zip?dl=0.
-Please extract it in "pretrained" directory.
+Please extract it at "PS-Transformer-BMVC2021/pretrained".
 
 If the program properly works, you will get average angular errors (in degrees) for each dataset.
 
