@@ -45,7 +45,7 @@ If the program properly works, you will get average angular errors (in degrees) 
 
 The final result [Mean] is the error about the averaged surface normal over normals predicted from K (K=10 in this case) differently rotated observation maps (See details in my paper). Finally, you will get the predicted surface normal map and the error map.
 
-<img src="webimage/img001.png" width="600">
+<img src="fig/examples.png" width="600">
 
 ### Important notice about DiLiGenT datasets
 
