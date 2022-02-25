@@ -25,7 +25,7 @@ Tested on:
 ### Running the tests
 For testing network (with DiLiGenT dataset), please download [DiLiGenT dataset (DiLiGenT.zip)](https://sites.google.com/site/photometricstereodata/) by Boxin Shi [1] and extract it at [USER_PATH].
 
-Then, run main.py with the DiLiGenT path as an argument.
+Then, please run main.py with the DiLiGenT path as an argument.
 
 ```
 python main.py --diligent [USER_PATH]/DiLiGenT/pmsData
@@ -35,13 +35,13 @@ The pretrained model (our "full" configuration) is available in "pretrained" dir
 
 If the program properly works, you will get average angular errors (in degrees) for each dataset.
 
-You can use TensorBoard for visualizing your output. The log file will be saved 
+You can use TensorBoard for visualizing your output. The log file will be saved at
 
 ```
 [LOGFILE] = 'Tensorboard/[SESSION_NAME (default:eval)]'
 ```
 
-Then, run TensorBoard as
+Then, please run TensorBoard as
 
 ```
 tensorboard --logdir [YOURLOGFILE]
@@ -60,7 +60,7 @@ If you want to run this code on ohter dataset, please allocate your own data jus
 - normals (normal.txt, if no ground truth surface normal is available, you can simply set all the values by zero)
 
 ### Running the training
-The training script is NOT supported yet.
+The training script is NOT supported yet (will be available).
 However, the training dataset is alraedy available. Please send a request to sikehata@nii.ac.jp
 
 ## License
