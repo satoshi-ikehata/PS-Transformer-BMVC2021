@@ -13,13 +13,15 @@ parser.add_argument('--train_num_samples', type=int, default=50000)
 parser.add_argument('--diligent', default='None')
 parser.add_argument('--pretrained', default='./pretrained')
 parser.add_argument('--checkpoint', default='./checkpoint')
+parser.add_argument('--min_nimg', type=int, default=10)
+parser.add_argument('--max_nimg', type=int, default=10)
 
 def main():
     args = parser.parse_args()
     outdir = '.'
     device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
     # trainData = custom_dataloader('Cycles', args.cycles, num_samples=args.train_num_samples)
-    testData = custom_dataloader('DiLiGenT', args.diligent)
+    testData = custom_dataloader('DiLiGenT', args.diligent, min_nimg=args.min_nimg, max_nimg=args.max_nimg)
     trainObj = builder.builder(device)
     if args.pretrained is not None:
         trainObj.net.load_models(args.pretrained)
@@ -77,7 +79,7 @@ def main():
         outputs = torch.cat(outputs, dim=3)
         tensorboard_writer.add('[Test] Normal Maps', outputs, epoch, 'Image')
         tensorboard_writer.add('[Test] Error', errors, epoch, 'Scalar')
-        print(f"[TEST] Mean Error {errors/testData.data.get_num_object()} deg.")
+        print(f"[TEST] Mean Error {errors/testData.data.get_num_object():.02f} deg.")
 
 
 main()
