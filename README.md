@@ -21,7 +21,7 @@ This is an official Pytorch implementation of PS-Transformer [1] for estimating 
 
 ### Prerequisites
 
-- Python3.7.5
+- Python3
 - torch
 - tensorboard
 - cv2
