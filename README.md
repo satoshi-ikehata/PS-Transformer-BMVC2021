@@ -12,8 +12,9 @@ This is an official Pytorch implementation of PS-Transformer [1] for estimating 
 
 <img src="fig/arc.jpg" width="800">
 <img src="fig/examples.png" width="800">
+<p align="center">
 (top) Surface normal estimation result from 10 images, (bottom) ground truth.
-
+</p>
 
 
 
