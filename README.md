@@ -10,10 +10,13 @@ This is an official Pytorch implementation of PS-Transformer [1] for estimating 
 [supplementary](https://www.bmvc2021-virtualconference.com/assets/supp/0319_supp.zip)
 
 <p align="center">
-<img src="fig/arc.jpg" width="800">
+<img src="fig/arc.jpg" width="800">  
 <img src="fig/examples.png" width="800">
+</p>
+<p align="center">
 (top) Surface normal estimation result from 10 images, (bottom) ground truth.
 </p>
+
 
 
 
