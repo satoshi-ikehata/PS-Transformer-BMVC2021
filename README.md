@@ -90,3 +90,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## References
 [2] Boxin Shi, Zhipeng Mo, Zhe Wu, Dinglong Duan, Sai-Kit Yeung, and Ping Tan, "A Benchmark Dataset and Evaluation for Non-Lambertian and Uncalibrated Photometric Stereo", In IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2018.
+
+# Comment
+The reason why this work was aimed at "sparse" set-up is simply because the model size is huge and I didn't have sufficient gpu resources for training my model on "dense" iamges (though test on the model trained on sparse images is possible as shown in the paper).  I am confident that this model also benefits the dense photometric stereo task and if you have any ideas to reduce the training cost, please let me know:)
