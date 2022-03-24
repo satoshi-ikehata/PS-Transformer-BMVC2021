@@ -73,10 +73,10 @@ tensorboard --logdir [YOURLOGFILE]
 
 ### Important notice about DiLiGenT datasets
 
-As is commonly known, "bear" dataset in DiLiGenT has problem and the first 20 images in bearPNG is are skipped. 
+As is commonly known, "bear" dataset in DiLiGenT has problem and the first 20 images in bearPNG are skipped. 
 
 ### Running the test on othter datasets (Unsupported)
-If you want to run this code on ohter dataset, please allocate your own data just in the same manner with DiLiGenT. The required files are
+If you want to run this code on ohter datasets, please allocate your own data just in the same manner with DiLiGenT. The required files are
 - images (.png format in default, but you can easily change the code for other formats)
 - lights (light_directions.txt, light_intensities.txt)
 - normals (normal.txt, if no ground truth surface normal is available, you can simply set all the values by zero)
@@ -92,4 +92,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 [2] Boxin Shi, Zhipeng Mo, Zhe Wu, Dinglong Duan, Sai-Kit Yeung, and Ping Tan, "A Benchmark Dataset and Evaluation for Non-Lambertian and Uncalibrated Photometric Stereo", In IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2018.
 
 ### Comment
-Honestly, the major reason why this work was aimed at "sparse" set-up is simply because the model size is huge and I didn't have sufficient gpu resources for training my model on "dense" iamges (though test on the model trained on sparse images is possible as shown in the paper).  I am confident that this model also benefits the dense photometric stereo task and if you have any ideas to reduce the training cost, they are very appreciated! 
+Honestly, the major reason why this work was aimed at "sparse" set-up is simply because the model size is huge and I didn't have sufficient gpu resources for training my model on "dense" iamges (though test on dense images using the model trained on sparse images is possible as shown in the paper).  I am confident that this model also benefits the dense photometric stereo task and if you have any ideas to reduce the training cost, they are very appreciated! 
