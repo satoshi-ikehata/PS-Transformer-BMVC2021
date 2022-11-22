@@ -5,9 +5,9 @@ This is an official Pytorch implementation of PS-Transformer [1] for estimating 
 [1] S. Ikehata, "PS-Transformer: Learning Sparse Photometric Stereo Network using Self-Attention Mechanism", BMVC2021
 ```
 
-[paper](https://www.bmvc2021-virtualconference.com/assets/papers/0319.pdf)
+[paper](https://arxiv.org/abs/2211.11386)
 
-[supplementary](https://www.bmvc2021-virtualconference.com/assets/supp/0319_supp.zip)
+[supplementary](https://www.dropbox.com/s/zgvhkd24ke9t0xp/319supp.pdf?dl=0)
 
 <p align="center">
 <img src="fig/arc.jpg" width="800">  
