@@ -82,8 +82,8 @@ If you want to run this code on ohter datasets, please allocate your own data ju
 - normals (normal.txt, if no ground truth surface normal is available, you can simply set all the values by zero)
 
 ### Running the training
-The training script is NOT supported yet (will be available soon!).
-However, the training dataset is alraedy available. Please send a request to sikehata@nii.ac.jp
+The training script is NOT supported.
+However, the training dataset is [available](https://www.dropbox.com/scl/fo/8w47k2pw6v8scaq3gjtw3/AIi7K11wJt4p4ZOt_RsVBSs?rlkey=0yyvdgr7kuv7duxspyjrt7yna&st=a06sy8f7&dl=0)
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
